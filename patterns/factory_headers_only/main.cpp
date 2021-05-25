@@ -6,6 +6,8 @@
 
 int main(void) {
     std::cout << "main" << std::endl;
-    Product test;
+    Creator* creator = new ConcreteCreator1();
+    ClientCode(*creator);
+    //Product test;
     
 }
