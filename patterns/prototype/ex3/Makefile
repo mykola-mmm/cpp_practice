@@ -1,0 +1,8 @@
+target ?= main
+CC = g++
+FLAGS = -Wall -g -fpermissive
+#FLAGS = -std=c++17
+
+all:
+	$(CC) $(FLAGS) -c $(target).cpp
+	$(CC) $(FLAGS) -o $(target) $(target).o

@@ -94,5 +94,6 @@ int main() {
     PrototypeFactory* prototype_factory = new PrototypeFactory();
     Client(*prototype_factory);
     delete prototype_factory;
+
     return EXIT_SUCCESS;
 }
